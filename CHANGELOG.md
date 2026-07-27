@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.10.0] - 2026-07-27
+
+### Added
+- Add `floatingIpRef` and `floatingIpSelector` cross-reference support to `FloatingipAssociateV2` (#173)
+- Add `portIdRef` and `portIdSelector` cross-reference support to `RouterInterfaceV2` (#172)
+
+### Changed
+- Bump `k8s.io/apimachinery` from `0.35.1` to `0.35.2`
+- Remove jan-di as project maintainer (#175)
+
 ## [0.9.0] - 2026-03-10
 
 ### Added
